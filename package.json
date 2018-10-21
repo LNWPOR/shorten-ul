@@ -1,0 +1,13 @@
+{
+  "name": "shorten-url",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LNWPOR/shorten-url.git",
+  "author": "Teerapat Chaupetch <teerapat.chau@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "bulma": "0.7.2",
+    "jquery": "3.3.1"
+  }
+}

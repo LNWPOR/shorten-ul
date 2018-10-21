@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <title>Shorten URL</title>
+</head>
+
+<body>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">Test Shorten URL</h1>
+        <h2 class="subtitle">
+          <input id="url-input" class="input" type="text" placeholder="Please insert url...">
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <ul>
+    <li>
+      <h6>Bitly</h6>
+      <div class="control">
+        <button id="shorten-btn-bitly" class="button is-primary">Submit</button>
+        <a id="url-result-bitly" href=""></a>
+      </div>
+    </li>
+    <li>
+      <h6>Rebrandly</h6>
+    </li>
+    <li>
+      <h6>Capsulink</h6>
+    </li>
+    <li>
+      <h6>T2M</h6>
+    </li>
+  </ul>
+
+</body>
+<script src="main.js"></script>
+
+</html>
